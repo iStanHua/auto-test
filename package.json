@@ -1,0 +1,21 @@
+{
+  "name": "phantomjs",
+  "version": "1.0.0",
+  "description": "```\r npm install\r npm install -g phantomjs\r ```",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iStanHua/phantomjs.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/iStanHua/phantomjs/issues"
+  },
+  "homepage": "https://github.com/iStanHua/phantomjs#readme"
+}
