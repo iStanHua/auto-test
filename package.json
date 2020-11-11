@@ -1,21 +1,30 @@
 {
-  "name": "phantomjs",
+  "name": "autotest",
   "version": "1.0.0",
-  "description": "```\r npm install\r npm install -g phantomjs\r ```",
+  "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node index"
+    "start": "node index",
+    "test": "nightwatch --env local",
+    "ie": "nightwatch -e ie11",
+    "sauce": "nightwatch -e chrome,ie11,android_s4_emulator,iphone_6_simulator"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "nightwatch": "^1.5.1",
+    "chromedriver": "^86.0.0",
+    "selenium-webdriver": "^4.0.0-alpha.7",
+    "selenium-server": "^3.141.59",
+    "jest": "^26.6.3"
+  },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/iStanHua/phantomjs.git"
+    "url": "git+https://github.com/iStanHua/autoTest.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/iStanHua/phantomjs/issues"
+    "url": "https://github.com/iStanHua/autoTest/issues"
   },
-  "homepage": "https://github.com/iStanHua/phantomjs#readme"
+  "homepage": "https://github.com/iStanHua/autoTest#readme"
 }
